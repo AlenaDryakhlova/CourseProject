@@ -262,6 +262,7 @@ class RestaurantSystem:
                    ("Добавить блюдо", self.add_dish),
                    ("Удалить блюдо", self.delete_dish),
                    ("Редактировать блюдо", self.edit_dish),
+                   ("Редактировать ингредиенты", self.edit_ingredients),
                    ("Удалить пользователя", self.delete_user),
                    ("Просмотреть отчеты", self.view_reports),
                    ("Экспорт меню в Excel", self.export_menu_to_excel),
